@@ -33,23 +33,23 @@ Create a testfile:
     
 			# test_object.rb  
 			
-			require "rubygems"  
-			require "testing"  
+		require "rubygems"  
+		require "testing"  
 
-			testing Object do  
-			  setup do  
-			    @obj = Object.new  
-			  end 
-			
-			  test "is not nil" do
-			    assert_not_nil @obj
-			  end
-			  
-			  test "can be frozen" do
-			    @obj.freeze
-			    assert @obj.frozen?
-			  end
-			end
+		testing Object do  
+		  setup do  
+		    @obj = Object.new  
+		  end 
+		
+		  test "is not nil" do
+		    assert_not_nil @obj
+		  end
+		  
+		  test "can be frozen" do
+		    @obj.freeze
+		    assert @obj.frozen?
+		  end
+		end
 			
 Run it with the ruby command:
 			
