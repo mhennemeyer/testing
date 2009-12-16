@@ -31,7 +31,7 @@
 
 Create a testfile:
     
-			# test_object.rb  
+		# test_object.rb  
 			
 		require "rubygems"  
 		require "testing"  
